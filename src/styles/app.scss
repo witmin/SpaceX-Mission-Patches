@@ -1,12 +1,39 @@
-h1 {
-  color: red;
-}
-
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color: #010341;
   margin-top: 60px;
 }
+
+h1 {
+  font-size: 2rem;
+  margin: 1rem 0 2rem;
+}
+
+.meta {
+  color: #676767;
+}
+
+.mission-patches-list {
+  list-style: none;
+  padding: 0;
+  margin: 2rem auto 4rem auto;
+  max-width: 64rem;
+  text-align: center;
+  li {
+    display: inline-block;
+    padding: 0;
+    margin: 1rem auto 3rem auto;
+    .launch-year {
+      color: #343434;
+    }
+  }
+}
+
+.mission-patch {
+  width: 120px;
+  margin: 0 2rem;
+}
+
