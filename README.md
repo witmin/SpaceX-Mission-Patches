@@ -3,8 +3,7 @@ Through SpaceX data API [https://github.com/r-spacex/SpaceX-API](https://github.
 
 Here is the screenshot:
 
-
-
+![SpaceX Mission Patches 2006-2018](https://github.com/witmin/vue-cli-axios-with-spacex-api/blob/master/public/space-x-mission-patches.png "Screenshot of the mission patches")
 
 ## Project setup
 ```
