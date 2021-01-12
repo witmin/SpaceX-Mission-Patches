@@ -5,7 +5,7 @@
     <div>
       <ul class="mission-patches-list">
         <li v-for="mission in missions" :key="mission.flight_number">
-          <img :src="mission.links.mission_patch" :alt="mission.mission_name" class="mission-patch" v-show="mission.links.mission_patch !== null">
+          <img :src="mission.links.mission_patch" :alt="mission.mission_name" class="mission-patch" :class="mission.links.mission_patch === null?'visibility-hidden':''">
           <p class="launch-year">{{ mission.launch_year }}</p>
           <h2 class="mission-name">{{ mission.mission_name }}</h2>
         </li>

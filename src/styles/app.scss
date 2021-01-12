@@ -22,23 +22,39 @@ h1 {
   margin: 2rem auto 4rem auto;
   max-width: 64rem;
   text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
   li {
     display: inline-block;
     padding: 0;
     margin: 1rem auto 3rem auto;
+    max-width: 60rem;
     .launch-year {
-      color: #343434;
+      color: #686868;
     }
   }
 }
 
 .mission-patch {
-  width: 120px;
+  display: block;
+  width: auto;
+  height: 120px;
   margin: 0 2rem;
 }
 .mission-name {
   font-weight: normal;
   font-size: .875rem;
   margin-top: -.5rem;
+  margin-left: auto;
+  margin-right: auto;
   color: #343434;
+  max-width: 10rem;
+  text-align: center;
+  white-space: normal;
+  word-break: break-word;
+}
+.visibility-hidden {
+  visibility: hidden;
 }
